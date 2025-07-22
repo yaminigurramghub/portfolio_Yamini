@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaquries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+     <div class="logo">PhaniYendluri </div>
+    <div>
+    <ul class="nav-links">
+    <li><a href="#About">About</a></li>    
+    <li><a href="#Experience">Experience</a></li>    
+    <li><a href="#Projects">Projects</a></li>    
+    <li><a href="#Contact">Contact</a></li>    
+    </ul>    
+    </div>   
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">PhaniYendluri</div>   
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="menu-links">
+    <li><a href="#About" onclick="toggleMenu()">About</a></li>    
+    <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>    
+    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>    
+    <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li> 
+</div>
+</div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./images/phaniYendluri.jpg" alt="phaniYendluri"/>
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">PhaniYendluri</h1>
+        <p class="section__text__p2">Software Dev Engineer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./Siva Yendluri SDE Resume.pdf')"> Download CV</button>
+            <button
+            class="btn btn-color-1"
+            onclick="location.href='./#Contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img 
+            src="./images/LinkedIn_logo.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            id="linkedin_image"
+            onclick="location.href='https://www.linkedin.com/in/siva-y-548615285'"/>
+            <img
+            src="./images/Git_Img.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/phaniyendluri'"/>
+        </div>
+    </div>
+    </div>
+    <div id="content1">
+        <img src="./images/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#About'"/>
+    </div>
+</section>
+<section id="About">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./images/aboutMe_image.jpg" alt="Profile Picture"
+            class="About-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img
+                    src="./images/Experience_icon.png"
+                    alt="Experience_icon"
+                    class="icon"/>
+                    <h3>Experience</h3>
+                    <p>3+ Years <br/>Software Development</p>
+                </div>
+                <div class="details-container">
+                    <img
+                    src="./images/Education_icon.png"
+                    alt="Education_icon"
+                    class="icon"/>
+                    <h3>Education</h3>
+                    <p>B.Tech Bachelors Degree <br/>M.S Masters Degree</p> 
+                </div>
+            </div>
+            <div class="text-container">
+                <p> Worked As A Graduate Research Assistant</p>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <img src="./images/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#Experience'"/>
+    </div>
+</section>
+<section id="Experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="Experience-details-container">
+        <!-- <div class="about-containers"> -->
+        <div class="about-container"> 
+            <div class="details-container color-container">
+              <h2 class="Experience-sub-title"></h2>
+                <div class="article-container">
+                     <article> 
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Angular</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>React</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>SpringBoot</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Hibernate</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>AWS Services</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Azure</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>GCP</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Java</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Apache Kafka</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>MY SQL</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Oracle DB</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Mongo DB</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/checkmark.png" alt="Experience icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Testing</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <img src="./images/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#Projects'"/>
+    </div>
+</section>
+<section id="Projects">
+    <p class="section__text__p1"> Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="Experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./images/project-1.png"
+                alt="project 1"
+                class="project-img"/>
+            </div>
+            <h2 class="Experience-sub-title project-title">Project one</h2>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            github
+        </button>
+        <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            Live Demo
+        </button>
+        </div>
+    </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./images/project-2.png"
+                alt="project 2"
+                class="project-img"/>
+            </div>
+            <h2 class="Experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            github
+        </button>
+        <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            Live Demo
+        </button>
+        </div>
+    </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img
+                src="./images/project-3.png"
+                alt="project 3"
+                class="project-img"/>
+            </div>
+            <h2 class="Experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            github
+        </button>
+        <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/phaniyendluri'">
+            Live Demo
+        </button>
+        </div>
+    </div>
+</div>
+</div>
+<div id="content"> 
+        <img src="./images/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#Projects'"/>
+    </div>
+</section>
+<section id="Contact">
+
+<p class="section__text__p1">Get in touch</p>
+<h1 class="title">Contact Me</h1>
+<div class="Contact-info-upper-container">
+<div class="Contact-info-container">
+    <img
+    src="./images/email.png"
+    alt="Email icon"
+    class="icon Contact-icon"/>
+    <p><a href="mailto:sivayendluri17@gmail.com">sivayendluri17@gmail.com</a></p>
+</div>
+<div class="Contact-info-container">
+    <img
+    src="images/phaniYendluri.jpg"
+    alt="LinkedIn icon"
+    class="icon Contact-icon"/>
+    <p><a href="https://www.linkedin.com/in/siva-y-548615285">LinkedIn</a></p>
+</div>
+</div>
+ <!-- <div id="content">
+    <img src="arrow.png"
+    alt="Arrow Icon"
+    class="icon arrow"
+    onclick="location.href='./#Contact'"/>
+</div>  -->
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>    
+                <li><a href="#Experience">Experience</a></li>    
+                <li><a href="#Projects">Projects</a></li>    
+                <li><a href="#Contact">Contact</a></li>    
+                </ul>  
+        </div>
+    </nav>
+    <p> Copyright &#169; 2023 Siva Yendluri.All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
